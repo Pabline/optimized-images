@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>Smart Images Delivery</h2>
+    <nav>
+      <div id="navbar" class="navbar">
+          <router-link to="/rough">Rough</router-link>
+          <router-link to="/lazy">Lazy Loading</router-link>
+          <router-link to="/compressed">Compressed Images</router-link>
+          <router-link to="/responsive">Responsive Images</router-link>
+          <router-link to="/webp">WebP Format</router-link>
+          <router-link to="/cdn">Lets upload to CDN!</router-link>
+          <router-link to="/extra">Extra Life!</router-link>
+      </div>
+    </nav>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
@@ -23,6 +32,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

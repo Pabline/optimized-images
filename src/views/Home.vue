@@ -7,7 +7,7 @@
 <script>
 
 export default {
-  name: 'Cdn',
+  name: 'Home',
   components: {
   }
 }
@@ -16,7 +16,7 @@ export default {
 <style>
   .view {
     text-align: center;
-    
+    margin-top: 70px;
     padding: 0.5rem 1rem;
     max-width: 100vw;
   }

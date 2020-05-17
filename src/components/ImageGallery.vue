@@ -170,7 +170,7 @@
         'medium' : (index+1)%view == 0 && measure === 'medium',
         'large' : (index+1)%view == 0 && measure === 'large'}"
       >
-        <img class="image-masonry" :src="i.src">
+        <img class="image-masonry" :loading="loading" :src="i.src">
       </div>
     </div>
   </div>
@@ -180,7 +180,8 @@
 export default {
   name: 'ImageGallery',
   props: {
-    imageList: Array
+    imageList: Array,
+    loading: String
   },
   data () {
     return {

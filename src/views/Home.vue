@@ -14,10 +14,4 @@ export default {
 </script>
 
 <style>
-  .view {
-    text-align: center;
-    margin-top: 70px;
-    padding: 0.5rem 1rem;
-    max-width: 100vw;
-  }
 </style>

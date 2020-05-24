@@ -23,10 +23,4 @@ export default {
 </script>
 
 <style>
-  .view {
-    text-align: center;
-    
-    padding: 0.5rem 1rem;
-    max-width: 100vw;
-  }
 </style>

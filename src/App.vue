@@ -65,10 +65,14 @@ a.router-link-exact-active {
   align-items: center;
   text-transform: uppercase;
   font-size: 1rem;
-  height: 10vh;
 }
 
 .navbar a {
   margin: 5px;
+}
+
+.view {
+  text-align: center;
+  max-width: 100vw;
 }
 </style>

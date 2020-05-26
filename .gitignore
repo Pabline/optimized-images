@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-/src/assets/images/stock
+/src/assets/rough
+/src/assets/responsive
 
 # local env files
 .env.local
